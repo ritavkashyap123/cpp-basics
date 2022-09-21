@@ -2,16 +2,9 @@
 
 using namespace std;
 
-int main()
+int main(int argc, char*argv[])
 {
-	int a;
-	cout<<"Enter a number :";
-	cin>>a;{
-		if(a%2==0){
-			cout<<"Number is even";
-		}
-		else{
-			cout<<"Number is odd";
-		}
-	}
+	for (int i=0; i<argc; i++)
+	cout<<argc<<endl;
+	return 0;
 }
